@@ -1,82 +1,76 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0px;
+  position: fixed;
+  top: 0px;
 }
 
 nav ul li {
-    list-style-type: none;
-    display: inline-block;
-    text-align: center;
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
 }
 
 header {
-    background-color: green;
-    text-align: center;
-    width: 100%;
+  background-color: green;
+  text-align: center;
+  width: 100%;
 }
 
 img {
-    margin-top: 10%;
+  margin-top: 10%;
 }
 
 table {
-    border: 2px dotted green;
-    padding: 10px;
-    margin: 20px;
+  border: 2px dotted green;
+  padding: 10px;
+  margin: 20px;
 }
 
 #titulo {
-    font-size: 30px;
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+  font-size: 30px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 a:hover {
-    text-decoration: none;
-    color: #fff;
-    font-family: monospace;
+  text-decoration: none;
+  color: #fff;
+  font-family: monospace;
 }
 
 a {
-    text-decoration: none;
-    color: #fff;
-    padding: 40px;
+  text-decoration: none;
+  color: #fff;
+  padding: 40px;
 }
 
 nav {
-    text-align: center;
-
-
+  text-align: center;
 }
 
 .lado-esquerdo {
-    width: 700px;
-    float: left;
-
+  width: 700px;
+  float: left;
 }
 
 .lado-direito {
-    float: right;
-    width: 400px;
-    
+  float: right;
+  width: 400px;  
 }
 
 p {
-    line-height: 30px;
+  line-height: 30px;
 }
 
-#licoes_aprendidas{
-    
-    display:inline-block;
+#licoes_aprendidas {   
+  display: inline-block;
 }
-#licoes_a_aprender{
-    
-    position:absolute;
-    display: inline-block;
-   
+
+#licoes_a_aprender {  
+  position: absolute;
+  display: inline-block;   
 }
