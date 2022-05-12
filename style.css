@@ -1,59 +1,82 @@
-body{
-  background-color:rgb(253, 251, 251);
+body {
+    background-color: rgb(253, 251, 251);
 }
-#cabecalho{
-  position: fixed;
-  top: 0px;  
+
+#cabecalho {
+    position: fixed;
+    top: 0px;
 }
-nav ul li{
-    list-style-type:none;
-    display:inline-block;
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
     text-align: center;
 }
-header{
+
+header {
     background-color: green;
     text-align: center;
     width: 100%;
 }
-img{
-    margin-top:10%;
+
+img {
+    margin-top: 10%;
 }
-table{
-    border:2px dotted green;
-    padding:10px;
-    margin:20px;
+
+table {
+    border: 2px dotted green;
+    padding: 10px;
+    margin: 20px;
 }
-#titulo{
+
+#titulo {
     font-size: 30px;
-    color:#fff;
+    color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-a:hover{
+
+a:hover {
     text-decoration: none;
-    color:#fff;
+    color: #fff;
     font-family: monospace;
 }
-a{
+
+a {
     text-decoration: none;
-    color:#fff;
+    color: #fff;
     padding: 40px;
 }
-nav{
+
+nav {
     text-align: center;
+
+
+}
+
+.lado-esquerdo {
+    width: 700px;
+    float: left;
+
+}
+
+.lado-direito {
+    float: right;
+    width: 400px;
+    
+}
+
+p {
+    line-height: 30px;
+}
+
+#licoes_aprendidas{
+    
+    display:inline-block;
+}
+#licoes_a_aprender{
+    
+    position:absolute;
+    display: inline-block;
    
-    
-}
-.lado-esquerdo{
-   width:700px;
-   float: left;
-    
-}
-.lado-direito{
-    float:right;
-    width:400px;
-    
-}
-p{
-    line-height:30px;
 }
